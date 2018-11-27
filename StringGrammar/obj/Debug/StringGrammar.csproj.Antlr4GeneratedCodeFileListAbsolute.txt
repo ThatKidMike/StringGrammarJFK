@@ -1,0 +1,6 @@
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarLexer.cs
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarParser.cs
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarListener.cs
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarBaseListener.cs
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarVisitor.cs
+C:\Users\ppmic\Desktop\StringGrammarJFK\StringGrammar\obj\Debug\StringGrammarBaseVisitor.cs

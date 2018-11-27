@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringGrammar", "StringGrammar\StringGrammar.csproj", "{339DE4B6-8D77-481D-A8A5-DBDA403C661A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{339DE4B6-8D77-481D-A8A5-DBDA403C661A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339DE4B6-8D77-481D-A8A5-DBDA403C661A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339DE4B6-8D77-481D-A8A5-DBDA403C661A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339DE4B6-8D77-481D-A8A5-DBDA403C661A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C223E47F-DF7A-4F05-AE05-06165135EA20}
+	EndGlobalSection
+EndGlobal
