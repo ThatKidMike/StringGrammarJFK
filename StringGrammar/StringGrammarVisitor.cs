@@ -111,8 +111,6 @@ namespace StringGrammar {
 
             }
 
-            //return null;
-
         }
 
         public override object VisitBrackets([NotNull] BracketsContext context) {

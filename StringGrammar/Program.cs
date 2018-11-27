@@ -52,8 +52,6 @@ namespace StringGrammar {
 
                 }
 
-
-                //Combined1Parser.ChatContext chatContext = speakParser.chat();
                 StringGrammarParser.ProgContext progContext = testParser.prog();
 
             } catch (Exception ex) {
