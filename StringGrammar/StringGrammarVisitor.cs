@@ -14,10 +14,8 @@ namespace StringGrammar {
 
             int string_length = context.STRING().ToString().Length;
             string s = context.STRING().ToString();
-            for (int i = 1; i < s.Length - 1; i++)
-            {
-                if (s[i] == '"')
-                {
+            for (int i = 1; i < s.Length - 1; i++) {
+                if (s[i] == '"') {
                     s = s.Substring(0, i - 1) + s.Substring(i);
                 }
             }
@@ -51,7 +49,7 @@ namespace StringGrammar {
 
             switch (context.op.Type) {
 
-                case CONCANTENATE:  
+                case CONCANTENATE:
                     result = left + right;
                     break;
 
@@ -68,7 +66,7 @@ namespace StringGrammar {
 
             string result = "...";
 
-            switch(context.op.Type) {
+            switch (context.op.Type) {
 
                 case UPPER:
                     result = Visit(context.expression()).ToString().ToUpper();
@@ -91,8 +89,8 @@ namespace StringGrammar {
             if (context.NUMBER(1) == null) {
 
                 n1 = 0;
-                n2 = int.Parse(context.NUMBER(0).ToString());       
-                
+                n2 = int.Parse(context.NUMBER(0).ToString());
+
             } else {
 
                 n1 = int.Parse(context.NUMBER(0).ToString());
@@ -104,12 +102,14 @@ namespace StringGrammar {
 
                 return Visit(context.expression()).ToString().Substring(n1, n2);
 
-            } catch(Exception e) {
+            } catch (Exception e) {
                 String ret = Visit(context.expression()).ToString();
                 Console.WriteLine("<PROBLEM>\n" + "Nie można wyłuskać podciągu o podanych parametrach z \"" + ret + "\"\n" + "</PROBLEM>\n");
                 return ret;
 
             }
+
+            //return null;
 
         }
 
@@ -117,7 +117,11 @@ namespace StringGrammar {
 
             return Visit(context.expression()).ToString();
 
-        } 
+        }
+
+        public override object VisitProg([NotNull] ProgContext context) {
+            return Visit(context.expression());
+        }
 
 
         //shift methods 
